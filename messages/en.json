@@ -1,5 +1,16 @@
 {
-  "Index": {
-    "title": "Hello World!"
+  "IndexPage": {
+    "title": "next-intl example",
+    "description": "This is an example of next-intl"    
+  }, 
+  "NotFoundPage": {
+    "title": "404 Not Found",
+    "description": "This page could not be found"
+  },
+  "Navigation": {
+    "home": "Home"
+  }, 
+  "Footer":{
+    "copyright": "© 2024"
   }
 }

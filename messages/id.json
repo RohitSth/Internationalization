@@ -1,5 +1,16 @@
 {
-  "Index": {
-    "title": "Halo dunia!"
+  "IndexPage": {
+    "title": "contoh next-intl",
+    "description": "id lang"    
+  }, 
+  "NotFoundPage": {
+    "title": "Halaman tidak ditemukan",
+    "description": "Halaman tidak ditemukan, silakan coba lagi nanti"
+  },
+  "Navigation": {
+    "home": "Beranda"
+   }, 
+  "Footer":{
+    "copyright": "© 2024 IDIDD"
   }
 }
