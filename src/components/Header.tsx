@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import LocalSwitcher from "./local-switcher";
 
 export default function Header() {
   const t = useTranslations("Navigation");
@@ -12,12 +13,7 @@ export default function Header() {
           <li>
             <Link href="/">{t("home")}</Link>
           </li>
-          <li>
-            <Link href="/en">English</Link>
-          </li>
-          <li>
-            <Link href="/id">Indonesia</Link>
-          </li>
+          <LocalSwitcher />
         </ul>
       </nav>
     </header>
